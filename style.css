@@ -1,0 +1,65 @@
+h1{
+    color:blue;
+    margin:40px;
+}
+.header{
+    color: indigo;
+}
+.games{
+    border: solid;
+    border-color: indigo;
+}
+.MGH{
+    background-color: brown;
+    color: brown;
+    position:relative;
+}
+.MGH h3{
+    position:absolute;
+    top:40%;
+    left:15%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.MGH:hover h3{
+    opacity: 1;
+}
+.MGH:hover img{
+    opacity: 0.5;
+}
+.Trex{
+    background-color: #808080;
+    color: white;
+    position:relative;
+}
+.rocket{
+    background-color:blue;
+    color: skyblue;
+    position:relative;
+}
+.Trex h3{
+    position:absolute;
+    top:40%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.Trex:hover h3{
+    opacity: 1;
+}
+.Trex:hover img{
+    opacity: 0.5;
+}
+.rocket h3{
+    position:absolute;
+    top:50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.rocket:hover h3{
+    opacity: 1;
+}
+.rocket:hover img{
+    opacity: 0.5;
+}
